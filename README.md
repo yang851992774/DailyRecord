@@ -5,7 +5,7 @@
 
 - 每周最少2个学习计划，坚持就是胜利。
 - 每次完成一个任务需要进行总结。
-- 定期复盘
+- 定期复盘。
 
 
 
@@ -24,3 +24,19 @@
 
 ### 1、2D物理画线
 
+###### LineRender组件
+
+Position：坐标点；
+Width：线宽度；
+Color：线颜色（支持渐变）；
+Corner Vertices：拐弯处的顶点数量（让拐弯圆滑一点）；
+End Cap Vertices：线段头尾的顶点数量（让线段头尾圆滑一点）；
+Use World Space：是否使用世界坐标（不要勾选）；
+Materias：材质球。
+
+###### EdgeCollider2D组件
+
+Edge Radius：边界碰撞体的半径。
+Points：边界碰撞体的坐标点（要与LineRenderer的点一致）。
+
+每新增一个点需要加CircleCollider2D组建，为了让画的线碰撞比较平滑。
