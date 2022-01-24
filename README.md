@@ -14,7 +14,7 @@
 | 序号 | 学习内容                                                     | 截止日期  | 目录          |
 | ---- | :----------------------------------------------------------- | --------- | ------------- |
 | 1    | [2D物理画线](https://linxinfa.blog.csdn.net/article/details/114700727) | 2021-12-5 | 2D/LineDrawer |
-|      |                                                              |           |               |
+| 2    | [Unity制作方阵编队](https://blog.csdn.net/linxinfa/article/details/119928677?spm=1001.2014.3001.5501) | 2021-12-8 | 3D/Formation  |
 |      |                                                              |           |               |
 |      |                                                              |           |               |
 
@@ -38,5 +38,4 @@ Materias：材质球。
 
 Edge Radius：边界碰撞体的半径。
 Points：边界碰撞体的坐标点（要与LineRenderer的点一致）。
-
 每新增一个点需要加CircleCollider2D组建，为了让画的线碰撞比较平滑。
